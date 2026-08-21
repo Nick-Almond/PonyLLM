@@ -1,49 +1,38 @@
-# PonyLLM
-<img width="208" alt="Sponsored by Connamara" src="https://i.ibb.co/rLrJdv9/Pink-and-Purple-Gradient-Tech-Abstract-Logo-13.webp">
+# MirageAGI
 
-**PonyLLM** is a repository-native reasoning model built for software architecture analysis, codebase comprehension, and execution tracing.
+<img width="208" alt="MirageAGI" src="https://i.ibb.co/rLrJdv9/Pink-and-Purple-Gradient-Tech-Abstract-Logo-13.webp">
 
+**MirageAGI** is a Solana-native reasoning model built for software architecture analysis, codebase comprehension, execution tracing, and intelligent developer workflows.
 
 ## Vision
 
-PonyLLM helps developers understand unfamiliar repositories by reconstructing architecture, identifying execution paths, mapping dependencies, and explaining design decisions.
+MirageAGI helps developers navigate complex repositories by reconstructing architecture, identifying execution paths, mapping dependencies, and explaining design decisions — with a Solana-inspired focus on speed, scalability, and composability.
 
 ### Features
 
-- Repository-level reasoning 
+- Solana-native developer experience
+- Repository-level reasoning
 - Architecture & dependency mapping
 - Entry-point and execution flow tracing
 - Multi-file code comprehension
 - Large-context repository analysis
-- Optimized for developer workflows
+- High-throughput code intelligence
+- Optimized for Web3 and developer workflows
 
 ## Model Variants
 
 | Model | Context | Strength |
 |--------|---------|----------|
-| pony-mini | 128k | Fast code navigation |
-| pony | 1M+ | Repository understanding |
-| pony-pro | 2M+ | Large monorepos & architecture |
-| pony-max | 8M+ | Enterprise-scale reasoning |
+| mirage-mini | 128k | Fast code navigation |
+| mirage | 1M+ | Repository understanding |
+| mirage-pro | 2M+ | Large monorepos & architecture |
+| mirage-max | 8M+ | Enterprise-scale reasoning |
 
 ## Quick Start
 
 ```bash
-pip install ponyllm
+pip install mirageagi
 
-ponyllm login
-ponyllm analyze https://github.com/owner/repository
-```
+mirageagi login
+mirageagi analyze 
 
-## Example
-
-```bash
-$ ponyllm analyze torvalds/linux
-
-✓ Repository Summary
-✓ Architecture Map
-✓ Dependency Graph
-✓ Execution Flow
-✓ Key Components
-✓ Entry Points
-```

@@ -6,7 +6,7 @@
 
 ## Vision
 
-MirageAGI helps developers navigate complex repositories by reconstructing architecture, identifying execution paths, mapping dependencies, and explaining design decisions — with a RBH-inspired focus on speed, scalability, and composability.
+PonyLLM helps developers navigate complex repositories by reconstructing architecture, identifying execution paths, mapping dependencies, and explaining design decisions — with a RBH-inspired focus on speed, scalability, and composability.
 
 ### Features 
 
@@ -31,8 +31,8 @@ MirageAGI helps developers navigate complex repositories by reconstructing archi
 ## Quick Start
 
 ```bash
-pip install ponyagi
+pip install ponyllm
 
-ponyagi login
-ponyagi analyze 
+ponyllm login
+ponyllm analyze 
 

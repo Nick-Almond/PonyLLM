@@ -1,4 +1,4 @@
-# MirageAGI
+# PonyLLM
 
 <img width="208" alt="MirageAGI" src="https://i.ibb.co/rLrJdv9/Pink-and-Purple-Gradient-Tech-Abstract-Logo-13.webp">
 

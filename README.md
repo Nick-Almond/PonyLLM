@@ -2,7 +2,7 @@
 
 <img width="208" alt="MirageAGI" src="https://i.ibb.co/rLrJdv9/Pink-and-Purple-Gradient-Tech-Abstract-Logo-13.webp">
 
-**MirageAGI** is a Solana-native reasoning model built for software architecture analysis, codebase comprehension, execution tracing, and intelligent developer workflows.
+**PonyLLM** is a Solana-native reasoning model built for software architecture analysis, codebase comprehension, execution tracing, and intelligent developer workflows.
 
 ## Vision
 

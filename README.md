@@ -1,6 +1,6 @@
 # PonyLLM
 
-<img width="208" alt="MirageAGI" src="https://i.ibb.co/rLrJdv9/Pink-and-Purple-Gradient-Tech-Abstract-Logo-13.webp">
+<img width="208" alt="PonyLLM" src="https://i.ibb.co/rLrJdv9/Pink-and-Purple-Gradient-Tech-Abstract-Logo-13.webp">
 
 **PonyLLM** is a Robinhood-native reasoning model built for software architecture analysis, codebase comprehension, execution tracing, and intelligent developer workflows.
 
@@ -23,16 +23,16 @@ MirageAGI helps developers navigate complex repositories by reconstructing archi
 
 | Model | Context | Strength |
 |--------|---------|----------|
-| mirage-mini | 128k | Fast code navigation |
-| mirage | 1M+ | Repository understanding |
-| mirage-pro | 2M+ | Large monorepos & architecture |
-| mirage-max | 8M+ | Enterprise-scale reasoning |
+| pony-mini | 128k | Fast code navigation |
+| pony | 1M+ | Repository understanding |
+| pony-pro | 2M+ | Large monorepos & architecture |
+| pony-max | 8M+ | Enterprise-scale reasoning |
 
 ## Quick Start
 
 ```bash
-pip install mirageagi
+pip install ponyagi
 
-mirageagi login
-mirageagi analyze 
+ponyagi login
+ponyagi analyze 
 

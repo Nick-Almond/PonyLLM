@@ -8,7 +8,7 @@
 
 MirageAGI helps developers navigate complex repositories by reconstructing architecture, identifying execution paths, mapping dependencies, and explaining design decisions — with a RBH-inspired focus on speed, scalability, and composability.
 
-### Features
+### Features 
 
 - RBH-native developer experience
 - Repository-level reasoning

@@ -2,15 +2,15 @@
 
 <img width="208" alt="MirageAGI" src="https://i.ibb.co/rLrJdv9/Pink-and-Purple-Gradient-Tech-Abstract-Logo-13.webp">
 
-**PonyLLM** is a Solana-native reasoning model built for software architecture analysis, codebase comprehension, execution tracing, and intelligent developer workflows.
+**PonyLLM** is a Robinhood-native reasoning model built for software architecture analysis, codebase comprehension, execution tracing, and intelligent developer workflows.
 
 ## Vision
 
-MirageAGI helps developers navigate complex repositories by reconstructing architecture, identifying execution paths, mapping dependencies, and explaining design decisions — with a Solana-inspired focus on speed, scalability, and composability.
+MirageAGI helps developers navigate complex repositories by reconstructing architecture, identifying execution paths, mapping dependencies, and explaining design decisions — with a RBH-inspired focus on speed, scalability, and composability.
 
 ### Features
 
-- Solana-native developer experience
+- RBH-native developer experience
 - Repository-level reasoning
 - Architecture & dependency mapping
 - Entry-point and execution flow tracing

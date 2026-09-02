@@ -39,8 +39,17 @@ class Server {
         });
 
         this.app.post('/api/process', async (req, res) => {
+            const body = req.body;
+            const isPlainObject = body !== null && typeof body === 'object' && !Array.isArray(body);
+            const hasUnsafeKeys = isPlainObject &&
+                Object.keys(body).some((key) => ['__proto__', 'constructor', 'prototype'].includes(key));
+
+            if (!isPlainObject || hasUnsafeKeys) {
+                return res.status(400).json({ success: false, error: 'Invalid request body' });
+            }
+
             try {
-                const result = await this.service.process(req.body);
+                const result = await this.service.process(body);
                 res.json({ success: true, result });
             } catch (error) {
                 res.status(500).json({ success: false, error: error.message });
